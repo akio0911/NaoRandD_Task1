@@ -28,12 +28,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func tapButton(_ sender: Any) {
-        let field1 = Int(editTextView1.text!) ?? 0
-        let field2 = Int(editTextView2.text!) ?? 0
-        let field3 = Int(editTextView3.text!) ?? 0
-        let field4 = Int(editTextView4.text!) ?? 0
-        let field5 = Int(editTextView5.text!) ?? 0
-        let sum =  field1 + field2 + field3 + field4 + field5
+        let value1 = Int(editTextView1.text!) ?? 0
+        let value2 = Int(editTextView2.text!) ?? 0
+        let value3 = Int(editTextView3.text!) ?? 0
+        let value4 = Int(editTextView4.text!) ?? 0
+        let value5 = Int(editTextView5.text!) ?? 0
+        let sum =  value1 + value2 + value3 + value4 + value5
 
         resultText.text = String(sum)
     }
